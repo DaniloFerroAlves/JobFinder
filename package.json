@@ -1,0 +1,24 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Um portal para programadores encontrarem vagas de emprego",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "job",
+    "finder"
+  ],
+  "author": "Danilo Ferro Alves",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
+  }
+}
